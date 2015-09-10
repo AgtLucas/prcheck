@@ -3,5 +3,6 @@
   "disallowTrailingComma": false,
   "requireTrailingComma": false,
   "disallowQuotedKeysInObjects": false,
-  "requirePaddingNewLinesAfterBlocks": false
+  "requirePaddingNewLinesAfterBlocks": false,
+  "requireCamelCaseOrUpperCaseIdentifiers": false,
 }
