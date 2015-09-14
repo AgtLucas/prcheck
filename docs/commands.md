@@ -12,20 +12,20 @@ prcheck re-auth
 
 - List all pull requests from a repo
 ```
-prcheck use <:repo> list-prs --user|-u <:user> --label|-l [<:labels>] --files|-f [<:extension>]
+prcheck list-prs <user/:repo> --author|-a <:user> --label|-l [<:labels>] --extesion|-e [<:extension>]
 ```
 
-- List all files from a specific pull request
+- TODO: List all files from a specific pull request
 ```
-prcheck use <:repo> list-files <:pr-number> --extension|-e [<:extension>]
-```
-
-- List all comments from a specific pull request
-```
-prcheck use <:repo> list-comments <:pr-number> --user|-u <:user>
+prcheck list-files <:repo> <:pr-number> --extension|-e [<:extension>]
 ```
 
-- List statuses from a specific pull request
+- TODO: List all comments from a specific pull request
 ```
-prcheck use <:repo> get-statuses <:pr-number>
+prcheck list-comments <:repo> <:pr-number> --author|-a <:user>
+```
+
+- TODO: List statuses from a specific pull request
+```
+prcheck get-statuses <:repo> <:pr-number>
 ```
